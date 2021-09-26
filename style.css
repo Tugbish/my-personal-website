@@ -3,6 +3,11 @@ body
     color: #14213D;
 }
 
+ul
+{
+    text-align: left;
+}
+
 .photos h1 
 {
     color: #14213D;
@@ -131,4 +136,10 @@ nav a
 {
     width: 100%;
     height: 300px;
+}
+
+.kids
+{
+    background-color: #83C5BE;
+    height: 150px;
 }
