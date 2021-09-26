@@ -1,0 +1,118 @@
+.photos h1 
+{
+    color: #14213D;
+    text-align: center;
+}
+
+header h1
+{
+    background: url('./images/header.jfif');
+    position:center;
+    display: inline-block;
+    height:100px;
+    width: 300px;
+    text-align:center;
+    vertical-align:text-bottom;
+    color: black;
+    size: 250px;
+}
+
+section h1
+{
+    font-weight: bold;
+    color: blue;
+    font-size: 100px;
+    margin: 8px;
+}
+
+section nav
+{
+    line-height: 0.6;
+}
+
+#main .paragraph
+{
+    margin-top: 100px;
+}
+
+#photos section 
+{
+    background-color: thistle;
+}
+
+#main p
+{
+text-align: center;
+font-family: cursive;
+line-height: 0.8;
+color: #14213D;
+}
+
+#main
+{
+    background-color: #006D77;
+}
+
+#photos p
+{
+    text-align: center;
+    color: orangered;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#photos img
+{
+    width: 24%;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding: 2px;
+}
+
+nav a
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #14213D;
+}
+
+.split 
+{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:20;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.left
+{
+    left: 0;
+    background-color: papayawhip;
+}
+  
+.right 
+{
+    right: 0;
+    background-color: aquamarine;
+}
+  
+  /* If you want the content centered horizontally and vertically */
+.centered 
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+  /* Style the image inside the centered container, if needed */
+.centered img 
+{
+    width: 150px;
+    border-radius: 50%;
+}
