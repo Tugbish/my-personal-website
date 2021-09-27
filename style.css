@@ -9,6 +9,43 @@ ul
     color: #14213D;
 }
 
+#main #copyright
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+#photos #copyright
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#kids #copyright
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#kids
+{
+    margin: 0;
+}
+
 #photos 
 {
     background-color: #83C5BE;
@@ -100,7 +137,7 @@ color: #14213D;
     text-align: center;
     color: #14213D;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #photos img
