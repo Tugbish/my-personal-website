@@ -6,13 +6,45 @@ body
 ul
 {
     text-align: left;
+    color: #14213D;
 }
 
-.photos h1 
+#photos 
+{
+    background-color: #83C5BE;
+}
+
+#blog
+{
+    background-color: #E29578;
+}
+
+#blog h1
+{
+    background-color: #E29578;
+}
+
+#email
+{
+    background-color: #e29578;
+}
+.menu h1 
 {
     color: #14213D;
     text-align: center;
 }
+
+header h1
+{
+    color: #14213D;
+    text-align: center;
+    background-color: #83C5BE;
+    margin: 0;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
 
 /*
 header h1
@@ -52,10 +84,7 @@ section nav
     margin-top: 100px;
 }
 
-#photos 
-{
-    background-color: #83C5BE;
-}
+
 
 #main p
 {
@@ -141,5 +170,5 @@ nav a
 .kids
 {
     background-color: #83C5BE;
-    height: 150px;
+    height: 25px;
 }
