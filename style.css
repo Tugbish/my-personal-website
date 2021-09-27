@@ -38,7 +38,7 @@ header h1
 {
     color: #14213D;
     text-align: center;
-    background-color: #83C5BE;
+    background-color: #e29578;
     margin: 0;
     font-weight: bold;
     font-size: 100px;
@@ -169,6 +169,6 @@ nav a
 
 .kids
 {
-    background-color: #83C5BE;
+    background-color: #e29578;
     height: 25px;
 }
