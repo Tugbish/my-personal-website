@@ -32,7 +32,7 @@ ul
 
 #kids #copyright
 {
-    display: block;
+    display:block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -81,23 +81,6 @@ header h1
     font-size: 100px;
 }
 
-
-
-/*
-header h1
-{
-    background: url('./images/header.jfif');
-    position:center;
-    display: inline-block;
-    height:100px;
-    width: 300px;
-    text-align:center;
-    vertical-align:text-bottom;
-    color: black;
-    size: 250px;
-}
-*/
-
 section h1
 {
     font-weight: bold;
@@ -142,13 +125,14 @@ color: #14213D;
 
 #photos img
 {
-    width: 24.6%;
+    width: 32.8%;
     text-align: center;
     border-radius: 50%;
     float: left;
     padding: 2px;
     border-style: solid;
     border-width: 1px;
+    height: 400px;
 }
 
 nav a
