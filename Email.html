@@ -2,6 +2,7 @@
 <html>
     <head>
             <link rel="stylesheet" href="style.css"> 
+            <link rel="stylesheet" href="email.css"> 
     </head>      
 <body id="email">
     <header>
@@ -11,18 +12,32 @@
     
     
       <section class="menu">
-        <h1>Email</h1>
+        <h1>Contact</h1>
         <nav>
           <a href="./index.html">About</a> |
           <a href="./Photos.html">Photos</a> |
           <a href="./Kids.html">My Kids</a> |
           <a href="https://taltin84.medium.com/" target="_blank">Blog</a> |
-          <a href="./Email.html">Email</a>
+          <a href="./Email.html">Contact</a>
           </nav>
+      </section>
 
-        <p>Sent an email to me</p>
-        </section>
-
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
         
     
     
