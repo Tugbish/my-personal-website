@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" href="style.css"> 
-            <link rel="stylesheet" href="email.css"> 
-    </head>      
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="email.css">
+
+  <!-- <script> "This comment is for me to remember js"
+    function validateForm() {
+      let firstName = document.forms["myForm"]["fname"].value;
+      document.getElementById("fname").value;
+      if (firstName == "") {
+        alert("First Name must be filled out");
+        return false;
+      }
+      return true;
+    }
+  </script> -->
+</head>
+
 <body id="email">
-    <header>
-        
-    </header>
+  <header>
 
-    
-    
-      <section class="menu">
-        <h1>Contact</h1>
-        <nav>
-          <a href="./index.html">About</a> |
-          <a href="./Photos.html">Photos</a> |
-          <a href="./Kids.html">My Kids</a> |
-          <a href="https://taltin84.medium.com/" target="_blank">Blog</a> |
-          <a href="./Email.html">Contact</a>
-          </nav>
-      </section>
+  </header>
 
-      <div class="container">
-              
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-          <p id="successMessage" style="display: none;">Thanks for your message!</p>
+  <section class="menu">
+    <h1>Contact</h1>
+    <nav>
+      <a href="./index.html">About</a> |
+      <a href="./Photos.html">Photos</a> |
+      <a href="./Kids.html">My Kids</a> |
+      <a href="https://taltin84.medium.com/" target="_blank">Blog</a> |
+      <a href="./Email.html">Contact</a>
+    </nav>
+  </section>
 
-          <input type="submit" value="Submit" onclick="document.getElementById('successMessage').style.display = 'block';">
-      
-      </div>
-        
-    
-    
+  <div class="container">
+    <form id="myForm">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-      <footer class="copyright">
-        <p>© 2021 by Tugbish</p>
-      </footer>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+      <!-- <p id="successMessage" style="display: none;">Thanks for your message!</p> -->
+
+      <input type="submit" value="Submit" onsubmit="return validateForm();">
+    </form>
+  </div>
+
+  <footer class="copyright">
+    <p>© 2021 by Tugbish</p>
+  </footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-    
 </html>
