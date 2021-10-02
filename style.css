@@ -1,6 +1,10 @@
 body 
 {
-    color: #14213D;
+    color: #e29578;
+    background-color: #e29578;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 ul
@@ -9,76 +13,39 @@ ul
     color: #14213D;
 }
 
-#main #copyright
+footer
 {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
-}
-
-#photos #copyright
-{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     text-align: left;
     font-size: 15px;
+    margin-top: 5%;
+    margin-right: 90%;
+    color: brown;
 }
 
-#kids #copyright
-{
-    display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
-    font-size: 15px;
-}
-
-#kids
-{
-    margin: 0;
-}
-
-#photos 
-{
-    background-color: #83C5BE;
-}
-
-#blog
+#blog, #blog h1, #email
 {
     background-color: #E29578;
 }
 
-#blog h1
-{
-    background-color: #E29578;
-}
-
-#email
-{
-    background-color: #e29578;
-}
 .menu h1 
 {
-    color: #14213D;
+    color: brown;
     text-align: center;
+    font-style: italic;
+    font-family: 'Petit Formal Script', 'cursive';;
 }
 
 header h1
 {
-    color: #14213D;
+    color: brown;
     text-align: center;
     background-color: #e29578;
     margin: 0;
     font-weight: bold;
     font-size: 100px;
+    font-style: italic;
+    font-family: 'Petit Formal Script', 'cursive';
 }
 
 section h1
@@ -95,91 +62,27 @@ section nav
 
 #main
 {
-    background-color: #006D77;
-    margin: 0;
+    background-color: #e29578;
+    
 }
 
 #main .paragraph
 {
-    margin-top: 100px;
+    margin-top: 3%;
 }
-
-
 
 #main p
 {
 text-align: center;
-font-family: cursive;
-line-height: 0.8;
+line-height: 0.5cm;
 color: #14213D;
-}
-
-
-#photos p
-{
-    text-align: center;
-    color: #14213D;
-    font-family: cursive;
-    font-size: 20px;
-}
-
-#photos img
-{
-    width: 32.8%;
-    text-align: center;
-    border-radius: 50%;
-    float: left;
-    padding: 2px;
-    border-style: solid;
-    border-width: 1px;
-    height: 400px;
 }
 
 nav a
 {
     margin-left: 10px;
     margin-right: 10px;
-    color: #14213D;
-}
-
-.split 
-{
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top:20;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-  
-.left
-{
-    left: 0;
-    background-color:#fed9b7;
-}
-  
-.right 
-{
-    right: 0;
-    background-color: #619b8a;
-}
-  
-  /* If you want the content centered horizontally and vertically */
-.centered 
-{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-  
-  /* Style the image inside the centered container, if needed */
-.centered img 
-{
-    width: 150px;
-    border-radius: 50%;
+    color: whitesmoke;
 }
 
 .istanbul
@@ -188,8 +91,32 @@ nav a
     height: 300px;
 }
 
-.kids
+.more
 {
     background-color: #e29578;
     height: 25px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 60%;
+    table-layout: fixed;
+}
+
+th {
+    font-style: italic;
+    font-family: 'Petit Formal Script', 'cursive';
+    color:brown;
+    font-size: 1.5em;
+}
+
+td {
+    vertical-align: top;
 }
